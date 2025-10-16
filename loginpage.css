@@ -1,0 +1,139 @@
+
+body{
+    width:100%;
+    height: 100vh;;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("night.jpg") ;
+    background-size:cover;
+    background-repeat:no-repeat
+}
+.login-box{
+    padding: 20px 10px;
+    height: 450px;
+    width: 350px;
+    border: 1px solid #F3F8FF; 
+    border-radius: 10px;
+    background-color:transparent;
+    backdrop-filter: blur(5px);
+}
+h1{
+    text-align: center;
+    color: #F3F8FF;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.input-box{
+  height: 70px;
+   width: 100%;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center; 
+}
+.input-item {
+  position: relative;
+
+  
+}
+.name-pass{
+    height: 10px;
+    width: 300px;
+   background: transparent;
+   box-sizing: border-box;
+    border: none;
+    outline: none;
+    color: #F3F8FF;
+    border-bottom: 1px solid #F3F8FF;
+    text-align: start;
+    margin-top: 40px;
+    padding: 20px 25px 15px 5px;
+  
+    
+}
+.name-pass::placeholder{
+    color:#F3F8FF ;
+    opacity: 0.5;
+
+}
+.input-item i {
+  position: absolute;
+  right: 25px;
+  top: 80%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #F3F8FF;
+   pointer-events: none; /* allows clicks to pass through */
+  z-index: 1;
+}
+
+.remembr-forget{
+    display: flex;
+    height: 30px;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center; 
+                                                                                                                                                                                
+}
+.rem-pass{
+color: white;
+opacity: 0.8;
+
+ 
+}
+.register{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #F3F8FF;
+}
+.register:hover{
+    text-decoration: underline;
+}
+.btn{
+    text-align: center;
+    margin-top: 30px;
+    height: 30px;
+    width: 100%;
+}
+button{
+    height: 30px;
+    width: 75px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: #18122B;
+    color: white;
+   border: none;
+   cursor: pointer;
+   
+}
+.acc_signup{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    color: #F3F8FF;
+}
+.acc{
+    opacity: 0.8;
+}
+
+._signup{
+    color: #F3F8FF;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 3px;
+    transition: all 0.3s ease;
+}
+._signup:hover{
+    text-decoration: underline;
+}
+                                                      
